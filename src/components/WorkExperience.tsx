@@ -3,21 +3,21 @@ import React from 'react';
 const WorkExperience = () => {
   const experiences = [
     {
-      company: 'Self-Employed, NYC',
-      role: 'Visual Designer',
-      period: 'Sep 2020 - July 2023',
+      company: 'TechInnovate Solutions',
+      role: 'Senior Full Stack Developer',
+      period: 'Jan 2022 - Present',
       side: 'left',
     },
     {
-      company: 'Insightancer',
-      role: 'UI/UX Designer',
-      period: 'Aug 2016 - Sep 2020',
+      company: 'WebCraft Technologies',
+      role: 'MERN Stack Developer',
+      period: 'Mar 2019 - Dec 2021',
       side: 'right',
     },
     {
-      company: 'KG Design Studio',
-      role: 'Web Designer',
-      period: 'Sep 2015 - Aug 2016',
+      company: 'DigitalForge Inc.',
+      role: 'Frontend Developer',
+      period: 'Jun 2017 - Feb 2019',
       side: 'left',
     },
   ];

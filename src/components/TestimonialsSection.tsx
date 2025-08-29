@@ -6,22 +6,22 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       name: 'Sarah Johnson',
-      role: 'CEO, TechStart',
-      content: 'Jenny transformed our product vision into a stunning reality. Her attention to detail and user-centric approach exceeded our expectations.',
+      role: 'CTO, TechStart Inc.',
+      content: 'Exceptional developer! Delivered our e-commerce platform ahead of schedule with clean, scalable code. The MERN stack implementation was flawless.',
       rating: 5,
       avatar: 'SJ',
     },
     {
       name: 'Michael Chen',
       role: 'Product Manager, InnovateCorp',
-      content: 'Working with Jenny was a game-changer for our team. She delivered exceptional designs that significantly improved our user engagement.',
+      content: 'Outstanding problem-solving skills and attention to detail. The full-stack solution exceeded our expectations and significantly improved our workflow.',
       rating: 5,
       avatar: 'MC',
     },
     {
       name: 'Emily Rodriguez',
-      role: 'Founder, DesignHub',
-      content: 'Jenny\'s creative solutions and professional approach made our collaboration seamless. Highly recommended for any design project.',
+      role: 'CEO, DigitalSolutions',
+      content: 'Professional, reliable, and technically excellent. The web application was delivered with perfect functionality and great performance optimization.',
       rating: 5,
       avatar: 'ER',
     },

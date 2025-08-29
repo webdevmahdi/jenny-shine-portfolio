@@ -7,21 +7,21 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const PortfolioSection = () => {
   const portfolioItems = [
     {
-      title: 'Food Express - Food Delivery Solution',
-      description: 'A complete food delivery platform with intuitive UI/UX design, focusing on user experience and conversion optimization.',
-      tags: ['UI/UX Design', 'Landing Page', 'Wireframe'],
+      title: 'E-Commerce Platform - Full Stack Solution',
+      description: 'A complete e-commerce platform with user authentication, payment integration, and admin dashboard built with MERN stack.',
+      tags: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Redux'],
       featured: true,
     },
     {
-      title: 'E-Commerce Dashboard',
-      description: 'Modern admin dashboard design for e-commerce management with data visualization and user-friendly interface.',
-      tags: ['UI/UX Design', 'Dashboard', 'Admin Panel'],
+      title: 'Social Media Dashboard',
+      description: 'Real-time social media analytics dashboard with data visualization and user engagement tracking.',
+      tags: ['React.js', 'Node.js', 'MongoDB', 'Chart.js'],
       featured: false,
     },
     {
-      title: 'Mobile Banking App',
-      description: 'Secure and intuitive mobile banking application with seamless user experience and modern design principles.',
-      tags: ['Mobile Design', 'UI/UX Design', 'Banking'],
+      title: 'Task Management Application',
+      description: 'Collaborative task management tool with real-time updates, team collaboration features, and progress tracking.',
+      tags: ['React.js', 'Express.js', 'TypeScript', 'Socket.io'],
       featured: false,
     },
   ];

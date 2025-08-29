@@ -28,14 +28,14 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange to-orange/70 flex items-center justify-center">
-                <span className="text-white font-bold text-lg">J</span>
+                <span className="text-white font-bold text-lg">Y</span>
               </div>
-              <span className="text-white font-bold text-xl">Jenny</span>
+              <span className="text-white font-bold text-xl">Your Name</span>
             </div>
             
             <p className="text-white/80 leading-relaxed">
-              A passionate product designer with 10+ years of experience creating 
-              digital experiences that inspire and engage users worldwide.
+              Professional web developer specializing in the MERN stack with 7+ years of experience. 
+              I create dynamic, user-friendly web applications that drive business growth.
             </p>
             
             {/* Social Media Icons */}
@@ -73,7 +73,7 @@ const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-xl font-semibold text-white">Stay Updated</h3>
             <p className="text-white/80">
-              Subscribe to get the latest insights on design trends and tips.
+              Subscribe to get the latest web development tips and tech insights.
             </p>
             
             <div className="space-y-3">
@@ -97,7 +97,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-white/10 text-center">
           <p className="text-white/60 text-sm">
-            © 2024 Jenny Shine. All rights reserved. | Designed with ❤️ for amazing projects
+            © 2024 Your Name. All rights reserved. | Professional Web Developer specializing in MERN Stack
           </p>
         </div>
       </div>

@@ -12,11 +12,13 @@ const WhyHireMe = () => {
               {/* Background Circle */}
               <div className="absolute inset-0 bg-orange rounded-full w-80 h-80 -z-10 transform -translate-x-4 translate-y-4"></div>
               
-              {/* Profile Image Placeholder */}
-              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-orange/20 to-orange/40 flex items-center justify-center border-4 border-background">
-                <div className="w-72 h-72 rounded-full bg-gradient-to-br from-muted to-secondary flex items-center justify-center">
-                  <span className="text-6xl font-bold text-muted-foreground">JR</span>
-                </div>
+              {/* Profile Image */}
+              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-orange/20 to-orange/40 flex items-center justify-center border-4 border-background overflow-hidden">
+                <img 
+                  src="/lovable-uploads/c814cfa3-f3cb-4040-afd6-5f817181bb06.png" 
+                  alt="Your Name - Professional Web Developer" 
+                  className="w-72 h-72 rounded-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -29,22 +31,20 @@ const WhyHireMe = () => {
               </h2>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                With over 10 years of experience in product design, I bring a unique blend of 
-                creativity and technical expertise to every project. I'm passionate about creating 
-                user-centered designs that not only look great but also drive business results.
+                With over 7 years of experience specializing in the MERN stack, I've honed my skills in React.js, Node.js, Express.js, Redux, MongoDB, TypeScript, C++, and more to perfection. Throughout my career, I've consistently demonstrated the ability to create dynamic and user-friendly web applications that drive business growth. What sets me apart is not just my technical proficiency but also my commitment to understanding each project's unique needs and delivering tailored solutions that make a tangible difference.
               </p>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-2 gap-8">
               <div className="space-y-2">
-                <h3 className="text-3xl font-bold text-orange">600+</h3>
+                <h3 className="text-3xl font-bold text-orange">90+</h3>
                 <p className="text-muted-foreground">Projects Completed</p>
               </div>
               
               <div className="space-y-2">
-                <h3 className="text-3xl font-bold text-orange">50+</h3>
-                <p className="text-muted-foreground">Industry Covered</p>
+                <h3 className="text-3xl font-bold text-orange">15+</h3>
+                <p className="text-muted-foreground">Industries Served</p>
               </div>
             </div>
 

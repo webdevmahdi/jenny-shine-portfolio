@@ -30,9 +30,9 @@ const Header = () => {
           {/* Logo Area */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange to-accent flex items-center justify-center">
-              <span className="text-white font-bold text-lg">J</span>
+              <span className="text-white font-bold text-lg">Y</span>
             </div>
-            <span className="text-white font-bold text-xl">Mahdi</span>
+            <span className="text-white font-bold text-xl">Your Name</span>
           </div>
 
           {/* Navigation Links */}

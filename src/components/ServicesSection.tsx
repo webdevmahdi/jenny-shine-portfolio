@@ -1,25 +1,25 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowUpRight, Palette, Globe, Layout } from 'lucide-react';
+import { ArrowUpRight, Code, Laptop, Database } from 'lucide-react';
 
 const ServicesSection = () => {
   const services = [
     {
-      title: 'UI/UX Design',
-      icon: <Palette className="w-8 h-8" />,
-      description: 'Creating intuitive and engaging user experiences',
+      title: 'Full Stack Development',
+      icon: <Code className="w-8 h-8" />,
+      description: 'End-to-end development of web applications using the MERN stack',
       highlighted: false,
     },
     {
-      title: 'Web Design',
-      icon: <Globe className="w-8 h-8" />,
-      description: 'Modern and responsive web solutions',
+      title: 'Frontend Development',
+      icon: <Laptop className="w-8 h-8" />,
+      description: 'Creating beautiful and responsive user interfaces with React.js',
       highlighted: true,
     },
     {
-      title: 'Landing Page',
-      icon: <Layout className="w-8 h-8" />,
-      description: 'High-converting landing page designs',
+      title: 'Backend Development',
+      icon: <Database className="w-8 h-8" />,
+      description: 'Building robust and scalable server-side applications with Node.js and Express.js',
       highlighted: false,
     },
   ];

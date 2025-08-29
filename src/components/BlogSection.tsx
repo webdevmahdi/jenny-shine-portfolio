@@ -7,28 +7,28 @@ import { Calendar, User } from 'lucide-react';
 const BlogSection = () => {
   const blogPosts = [
     {
-      title: 'The Future of UI/UX Design: Trends to Watch in 2024',
-      category: 'Design Trends',
-      author: 'Jenny Shine',
+      title: 'Mastering State Management in React with Redux',
+      category: 'React.js',
+      author: 'Your Name',
       date: 'March 15, 2024',
-      excerpt: 'Exploring the latest trends shaping the future of user interface and experience design.',
-      readTime: '5 min read',
+      excerpt: 'A comprehensive guide to implementing Redux for complex state management in modern React applications.',
+      readTime: '8 min read',
     },
     {
-      title: 'Creating Accessible Designs: A Complete Guide',
-      category: 'Accessibility',
-      author: 'Jenny Shine',
+      title: 'Building a RESTful API with Node.js and Express',
+      category: 'Backend',
+      author: 'Your Name',
       date: 'March 10, 2024',
-      excerpt: 'Learn how to make your designs inclusive and accessible to all users.',
-      readTime: '7 min read',
+      excerpt: 'Learn how to create robust and scalable APIs using Node.js, Express.js, and best practices for backend development.',
+      readTime: '10 min read',
     },
     {
-      title: 'From Wireframe to Prototype: My Design Process',
-      category: 'Process',
-      author: 'Jenny Shine',
+      title: 'MongoDB Performance Optimization Techniques',
+      category: 'Database',
+      author: 'Your Name',
       date: 'March 5, 2024',
-      excerpt: 'A deep dive into my design workflow and the tools I use to bring ideas to life.',
-      readTime: '6 min read',
+      excerpt: 'Essential strategies and techniques to optimize MongoDB queries and improve database performance.',
+      readTime: '7 min read',
     },
   ];
 

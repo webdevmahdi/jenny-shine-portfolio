@@ -9,11 +9,11 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <p className="text-muted-foreground italic text-lg">
-                "Creating digital experiences that inspire and engage"
+                "Building dynamic web applications that drive business growth"
               </p>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                I'm <span className="text-foreground">Mahdi</span>,{' '}
-                <span className="text-foreground">Product Designer</span>
+                I'm <span className="text-foreground">Your Name</span>,{' '}
+                <span className="text-foreground">Professional Web Developer</span>
               </h1>
             </div>
 
@@ -23,12 +23,12 @@ const HeroSection = () => {
                 <div className="flex items-center gap-2 mb-2">
                   {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-orange text-orange" />)}
                 </div>
-                <p className="text-sm text-muted-foreground">6 Years Experts</p>
+                <p className="text-sm text-muted-foreground">7 Years of Experience</p>
               </div>
               
               <div className="bg-card rounded-xl p-6 shadow-sm border">
-                <h3 className="text-2xl font-bold text-orange mb-2">80+</h3>
-                <p className="text-sm text-muted-foreground">Client Served</p>
+                <h3 className="text-2xl font-bold text-orange mb-2">90+</h3>
+                <p className="text-sm text-muted-foreground">Projects Completed</p>
               </div>
             </div>
 
@@ -49,11 +49,13 @@ const HeroSection = () => {
               {/* Background Circle */}
               <div className="absolute inset-0 bg-orange rounded-full w-80 h-80 -z-10 transform translate-x-4 translate-y-4"></div>
               
-              {/* Profile Image Placeholder */}
-              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-orange/20 to-orange/40 flex items-center justify-center border-4 border-background">
-                <div className="w-72 h-72 rounded-full bg-gradient-to-br from-muted to-secondary flex items-center justify-center">
-                  <span className="text-6xl font-bold text-muted-foreground">JR</span>
-                </div>
+              {/* Profile Image */}
+              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-orange/20 to-orange/40 flex items-center justify-center border-4 border-background overflow-hidden">
+                <img 
+                  src="/lovable-uploads/c814cfa3-f3cb-4040-afd6-5f817181bb06.png" 
+                  alt="Your Name - Professional Web Developer" 
+                  className="w-72 h-72 rounded-full object-cover"
+                />
               </div>
             </div>
           </div>
