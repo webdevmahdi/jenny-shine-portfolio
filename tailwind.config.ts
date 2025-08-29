@@ -96,14 +96,14 @@ export default {
           },
         },
         "up-and-down": {
-          "0%, 100%": { transform: "translateY(-11%)" }, 
-          "50%": { transform: "translateY(8%)" }, 
+          "0%, 100%": { transform: "translateY(-4%)" }, 
+          "50%": { transform: "translateY(2%)" }, 
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "up-and-down": "up-and-down 3s linear infinite",
+        "up-and-down": "up-and-down 2.5s linear infinite",
       },
     },
   },

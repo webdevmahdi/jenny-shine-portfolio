@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const CallToAction = () => {
   return (
-    <section className="py-20 px-4">
+    <section id='contact' className="py-20 px-4">
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <h2 className="text-4xl lg:text-6xl font-bold leading-tight">
           Have an Awesome Project Idea? <br />

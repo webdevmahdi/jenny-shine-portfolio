@@ -43,9 +43,11 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex gap-4">
-              <Button className="bg-orange hover:bg-orange/90 text-orange-foreground px-8 py-6 text-lg font-semibold rounded-xl">
+              <a href="#portfolio">
+                <Button className="bg-orange hover:bg-orange/90 text-orange-foreground px-8 py-6 text-lg font-semibold rounded-xl">
                 Portfolio
               </Button>
+                </a>
               <Button
                 variant="outline"
                 className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-background px-8 py-6 text-lg font-semibold rounded-xl"
