@@ -20,10 +20,12 @@ const WorkExperience = () => {
       period: 'Jun 2017 - Feb 2019',
       side: 'left',
     },
+    
+    
   ];
 
   return (
-    <section className="py-20 px-4">
+    <section id='about' className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
@@ -32,6 +34,7 @@ const WorkExperience = () => {
         </div>
 
         <div className="relative">
+          {}
           {/* Vertical Timeline Line */}
           <div className="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-border"></div>
 

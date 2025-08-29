@@ -1,23 +1,23 @@
-import React from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Github, Linkedin, Twitter, Instagram, Mail } from 'lucide-react';
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Github, Linkedin, Twitter, Instagram, Mail } from "lucide-react";
 
 const Footer = () => {
   const navigationLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Blog', href: '#blog' },
-    { name: 'Contact', href: '#contact' },
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Services", href: "#services" },
+    { name: "Portfolio", href: "#portfolio" },
+    { name: "Blog", href: "#blog" },
+    { name: "Contact", href: "#contact" },
   ];
 
   const socialLinks = [
-    { name: 'GitHub', icon: Github, href: '#' },
-    { name: 'LinkedIn', icon: Linkedin, href: '#' },
-    { name: 'Twitter', icon: Twitter, href: '#' },
-    { name: 'Instagram', icon: Instagram, href: '#' },
+    { name: "GitHub", icon: Github, href: "#" },
+    { name: "LinkedIn", icon: Linkedin, href: "#" },
+    { name: "Twitter", icon: Twitter, href: "#" },
+    { name: "Instagram", icon: Instagram, href: "#" },
   ];
 
   return (
@@ -30,14 +30,15 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange to-orange/70 flex items-center justify-center">
                 <span className="text-white font-bold text-lg">Y</span>
               </div>
-              <span className="text-white font-bold text-xl">Your Name</span>
+              <span className="text-white font-bold text-xl">Mahdi Hasan</span>
             </div>
-            
+
             <p className="text-white/80 leading-relaxed">
-              Professional web developer specializing in the MERN stack with 7+ years of experience. 
-              I create dynamic, user-friendly web applications that drive business growth.
+              Professional web developer specializing in the MERN stack with 7+
+              years of experience. I create dynamic, user-friendly web
+              applications that drive business growth.
             </p>
-            
+
             {/* Social Media Icons */}
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -73,9 +74,10 @@ const Footer = () => {
           <div className="space-y-6">
             <h3 className="text-xl font-semibold text-white">Stay Updated</h3>
             <p className="text-white/80">
-              Subscribe to get the latest web development tips and tech insights.
+              Subscribe to get the latest web development tips and tech
+              insights.
             </p>
-            
+
             <div className="space-y-3">
               <div className="flex gap-2">
                 <Input
@@ -97,7 +99,8 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-white/10 text-center">
           <p className="text-white/60 text-sm">
-            © 2024 Your Name. All rights reserved. | Professional Web Developer specializing in MERN Stack
+            © 2024 Mahdi Hasan. All rights reserved. | Professional Web
+            Developer specializing in MERN Stack
           </p>
         </div>
       </div>
