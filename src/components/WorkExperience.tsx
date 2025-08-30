@@ -1,4 +1,5 @@
 import React from 'react';
+import WhyHireMe from './WhyHireMe';
 
 const WorkExperience = () => {
   const experiences = [

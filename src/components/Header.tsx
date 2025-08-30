@@ -8,12 +8,12 @@ const Header = () => {
       active: true,
     },
     {
-      name: "About",
-      href: "#about",
-    },
-    {
       name: "Service",
       href: "#services",
+    },
+    {
+      name: "About",
+      href: "#about",
     },
     {
       name: "Portfolio",

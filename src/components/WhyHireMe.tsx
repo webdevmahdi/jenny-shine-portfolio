@@ -13,11 +13,11 @@ const WhyHireMe = () => {
               <div className="absolute inset-0 bg-orange rounded-full w-80 h-80 -z-10 transform -translate-x-4 translate-y-4"></div>
 
               {/* Profile Image */}
-              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-orange/20 to-orange/40 flex items-center justify-center border-4 border-background overflow-hidden">
+              <div className="w-96 h-96 rounded-full bg-gradient-to-br from-orange/20 to-orange/40 flex items-center justify-center border-4 border-background overflow-hidden">
                 <img
                   src="/lovable-uploads/c814cfa3-f3cb-4040-afd6-5f817181bb06.png"
                   alt="Mahdi Hasan - Professional Web Developer"
-                  className="w-72 h-72 rounded-full object-cover"
+                  className="w-[325px] h-[325px] rounded-full object-cover"
                 />
               </div>
             </div>
