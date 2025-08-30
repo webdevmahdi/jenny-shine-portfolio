@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 const Header = () => {
+  const [active, setActive] = useState("#home");
+
   const navItems = [
     {
       name: "Home",
       href: "#home",
-      active: true,
     },
     {
       name: "Service",
@@ -50,13 +51,18 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className={`text-white hover:text-orange transition-colors duration-300 relative ${
-                  item.active ? "font-semibold" : "font-medium"
+                onClick={() => setActive(item.href)}
+                className={` hover:text-orange transition-colors duration-300 relative ${
+                  active === item.href
+                    ? "font-semibold text-orange"
+                    : "font-medium text-white"
                 }`}
               >
                 {item.name}
-                {item.active && (
-                  <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-orange rounded-full"></div>
+                {active === item.href && (
+                  <div
+                    className={` absolute -bottom-1 left-0 w-full h-0.5 bg-orange rounded-full `}
+                  ></div>
                 )}
               </a>
             ))}

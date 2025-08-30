@@ -4,6 +4,7 @@ import { Star } from "lucide-react";
 const HeroSection = () => {
   return (
     <section id="home" className="min-h-screen pt-32 pb-16 px-4">
+      
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
